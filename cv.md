@@ -22,3 +22,23 @@ I worked as un
 - IntelliJ IDEA, VS Code;
 - Git/GitHub;
 - Docker
+
+## Code example
+
+    function filterRange(arr, min, max) {
+      return arr.filter((item) => item >= min && item <= max);
+    }
+
+## Education
+
+- Belarusian Institute of Law
+
+## Courses
+
+## Languages
+
+- Russian - native
+- Belarussian - native
+- English - A2
+- Polish - A2
+- French - A1
