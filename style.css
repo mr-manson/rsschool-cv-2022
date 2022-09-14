@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+
 * {
   box-sizing: border-box;
 }
@@ -14,4 +16,161 @@ body {
   background-size: cover;
   background-attachment: fixed;
   color: white;
+}
+
+.header {
+  margin-bottom: 20px;
+  border-radius: 0px 0px 10px 10px;
+  background-color: #00000050;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: rgba(153, 205, 50);
+  transition: 0.5s;
+}
+
+.contacts {
+  padding: 3% 13% 0 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 25px;
+}
+
+.section {
+  width: 50%;
+  padding: 30px;
+  padding-bottom: 35px;
+  line-height: 25px;
+}
+
+.txt {
+  padding: 0px 15px;
+  text-indent: 0px;
+  text-align: justify;
+}
+
+/* .contact-list {
+  list-style: none;
+} */
+
+.nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  line-height: 50px;
+  padding-right: 25px;
+  list-style: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px #000;
+  font-size: x-large;
+  color: rgba(153, 205, 50, 0.7);
+  line-height: 50px;
+
+  width: 100%;
+  border-bottom: 2px dotted #000000;
+}
+
+h2 {
+  padding-left: 15px;
+}
+
+.up-link {
+  font-size: 25px;
+  color: rgba(153, 205, 50, 0.7);
+}
+
+.hljs {
+  display: block;
+  padding: 0.5em;
+  border-radius: 4px;
+  line-height: 15px;
+  width: 100%;
+  background: gray;
+  color: white;
+  font-size: 14px;
+}
+
+.main {
+  padding: 0px 30px;
+  border-radius: 10px;
+  background-color: #00000050;
+}
+
+.all {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.list {
+  list-style: square;
+}
+
+/* .icon {
+  height: 20px;
+  color: white;
+} */
+
+.foto {
+  height: 250px;
+  margin: 50px;
+  border: 10px solid rgba(153, 205, 50, 0.4);
+  border-radius: 50%;
+  box-shadow: 1px 1px 10px #000;
+}
+
+.footer {
+  margin-top: 20px;
+  padding: 0px;
+  border-radius: 10px 10px 0px 0px;
+  background-color: #00000050;
+  line-height: 50px;
+}
+
+.invert1,
+.invert2 {
+  filter: invert(100%);
+  padding: 20px;
+  height: 75px;
+}
+
+.invert1 {
+  padding-right: 100px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 20px 0 20px;
+}
+
+.footer-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 50px;
+  list-style: none;
+  font-size: 16px;
 }

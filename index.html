@@ -8,9 +8,22 @@
     <title>CV</title>
   </head>
   <body>
-    <header>HEADER</header>
+    <header class="header">
+      <nav class="nav" id="top">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts">Contacts</a></li>
+          <li class="nav-item"><a href="#aboutme">About Me</a></li>
+          <li class="nav-item"><a href="#skills">Skills</a></li>
+          <li class="nav-item"><a href="#code">Code example</a></li>
+          <li class="nav-item"><a href="#education">Education</a></li>
+          <li class="nav-item"><a href="#courses">Courses</a></li>
+          <li class="nav-item"><a href="#languages">Languages</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <main class="main">
+
       <div class="contacts" id="contacts">
         <image
           class="foto"
@@ -22,17 +35,15 @@
           <strong>Location:</strong> Belarus, Grodno<br />
           <strong>E-mail:</strong> nikola777jr@gmail.com<br />
           <strong>GitHub:</strong> mr-manson<br />
-          <strong>Discord:</strong> Aleh Nikalaichanka (@mr-manson)
+          <strong>Discord:</strong> Aleh Nikalaichanka (@mr-manson)        
         </div>
       </div>
 
       <div class="all">
         <section class="section" id="aboutme">
           <h2>About Me <a class="up-link" href="#top" title="Up">^</a></h2>
-          <p class="txt">
-            I would like to become a full-stack developer, so while studying
-            Java I decided to learn JavaScript, HTML and CSS.
-          </p>
+          <p class="txt">I would like to become a full-stack developer, so while studying Java
+          I decided to learn JavaScript, HTML and CSS.</p>
         </section>
 
         <section class="section" id="skills">
@@ -49,19 +60,19 @@
         <section class="section" id="code">
           <h2>Code example <a class="up-link" href="#top" title="Up">^</a></h2>
           <pre class="hljs">
-              <code>
-              function filterRange(arr, min, max) { 
-                  return arr.filter((item) =&gt; 
-                  item &gt;= min &amp;&amp; item &lt;= max); 
-              }</code>
-            </pre>
+            <code>
+            function filterRange(arr, min, max) { 
+                return arr.filter((item) =&gt; 
+                item &gt;= min &amp;&amp; item &lt;= max); 
+            }</code>
+          </pre>
         </section>
 
         <section class="section" id="education">
           <h2>Education <a class="up-link" href="#top" title="Up">^</a></h2>
           <ul class="list">
             <li>2001 - Belarusian Institute of Law</li>
-          </ul>
+          </ul>          
         </section>
 
         <section class="section" id="courses">
@@ -85,9 +96,15 @@
             <li>French - A1</li>
           </ul>
         </section>
+
       </div>
     </main>
-
-    <footer>FOOTER</footer>
+    <footer class="footer">
+      <ul class="footer-list">
+        <li class="footer-item"><img class="invert1" src="https://www.svgrepo.com/show/343674/github.svg"></li>
+        <li class="footer-item">© mr-manson 2022</a></li>
+        <li class="footer-item"><img class="invert2" src="https://rs.school/images/rs_school.svg"></li>
+      </ul>
+    </footer>
   </body>
 </html>
