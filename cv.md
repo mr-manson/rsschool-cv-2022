@@ -12,7 +12,7 @@
 
 ## About Me
 
-I worked as un
+I would like to become a full-stack developer, so while studying Java I decided to learn JavaScript, HTML and CSS.
 
 ## Skills
 
@@ -20,8 +20,7 @@ I worked as un
 - HTML/CSS/JS (current);
 - MySQL, MongoDB;
 - IntelliJ IDEA, VS Code;
-- Git/GitHub;
-- Docker
+- Git/GitHub
 
 ## Code example
 
@@ -31,14 +30,20 @@ I worked as un
 
 ## Education
 
-- Belarusian Institute of Law
+- 2001 - Belarusian Institute of Law
 
 ## Courses
+
+- 2022 - EPAM Systems - Java Web Development
+- 2020 - IT-Academy - Java Trainings
+- [javarush.ru](https://javarush.ru)
+- [javascript.ru](https://learn.javascript.ru/js)
+- Udemy.com courses
 
 ## Languages
 
 - Russian - native
 - Belarussian - native
-- English - A2
+- English - B1
 - Polish - A2
 - French - A1
