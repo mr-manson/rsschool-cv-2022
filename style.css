@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 1000px;
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
