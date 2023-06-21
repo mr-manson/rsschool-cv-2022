@@ -2,7 +2,7 @@
 
 # Aleh Nikalaichanka
 
-<image src="https://media-exp1.licdn.com/dms/image/D4D03AQE-JhImQ_0T9A/profile-displayphoto-shrink_800_800/0/1642677952994?e=1668038400&v=beta&t=SsVB16mmGRZZxx28GZgccKiYF8BeCLiaDdVeEQiPWoI" height="100" align="left" alt="Photo" margin-right="20px" />
+<image src="https://github.com/mr-manson/rsschool-cv/blob/main/img/0a32fb90842da2ce3cfbe1471cb25a6e.jpg" height="100" align="left" alt="Photo" margin-right="20px" />
 
 **Location:** Belarus, Grodno\
 **E-mail:** nikola777jr@gmail.com\
@@ -12,21 +12,18 @@
 
 ## About Me
 
-I would like to become a full-stack developer, so while studying Java I decided to learn JavaScript, HTML and CSS.
+I would like to become a frontend developer, so I learn JavaScript, HTML, CSS and everything connected with them.
 
 ## Skills
 
-- Java, Spring, Hibernate;
-- HTML/CSS/JS (current);
-- MySQL, MongoDB;
-- IntelliJ IDEA, VS Code;
-- Git/GitHub
-
-## Code example
-
-    function filterRange(arr, min, max) {
-      return arr.filter((item) => item >= min && item <= max);
-    }
+- HTML5
+- CSS3/Scss
+- JS 
+- React, Redux
+- Express, Sequelize
+- MySQL
+- Webstorm, VS Code;
+- GitHub
 
 ## Education
 
@@ -34,6 +31,7 @@ I would like to become a full-stack developer, so while studying Java I decided 
 
 ## Courses
 
+- from 2022/08 - Frontend - selfeducation
 - 2022 - EPAM Systems - Java Web Development
 - 2020 - IT-Academy - Java Trainings
 - [javarush.ru](https://javarush.ru)
